@@ -1,0 +1,127 @@
+09/20/2020 06:10:58 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:10:58 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:11:10 -07:00 Hosting environment: "Development"
+09/20/2020 06:11:10 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:11:10 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:11:10 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:11:10 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:11:11 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 310.75ms
+09/20/2020 06:11:11 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:11:11 -07:00 Request finished in 12201.4486ms 200 application/json; charset=utf-8
+09/20/2020 06:14:37 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:14:38 -07:00 Hosting environment: "Development"
+09/20/2020 06:14:38 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:14:38 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:14:38 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:14:38 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:14:38 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:14:38 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 211.8402ms
+09/20/2020 06:14:39 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:14:39 -07:00 Request finished in 881.7916ms 200 application/json; charset=utf-8
+09/20/2020 06:25:38 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:25:40 -07:00 Hosting environment: "Development"
+09/20/2020 06:25:40 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:25:40 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:25:40 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:25:41 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:25:41 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:25:42 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 627.6818ms
+09/20/2020 06:25:42 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:25:42 -07:00 Request finished in 2291.3605ms 200 application/json; charset=utf-8
+09/20/2020 06:36:20 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:36:22 -07:00 Hosting environment: "Development"
+09/20/2020 06:36:22 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:36:22 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:36:22 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:36:23 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:36:23 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:36:23 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 251.201ms
+09/20/2020 06:36:23 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:36:23 -07:00 Request finished in 1106.8893ms 200 application/json; charset=utf-8
+09/20/2020 06:37:50 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:37:50 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:37:50 -07:00 Hosting environment: "Development"
+09/20/2020 06:37:50 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:37:50 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:37:51 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:37:51 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:37:51 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 117.7774ms
+09/20/2020 06:37:51 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:37:51 -07:00 Request finished in 517.6566ms 200 application/json; charset=utf-8
+09/20/2020 06:40:39 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:40:40 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:40:40 -07:00 Hosting environment: "Development"
+09/20/2020 06:40:40 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:40:40 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:40:40 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:40:40 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:40:40 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 193.2332ms
+09/20/2020 06:40:40 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:40:40 -07:00 Request finished in 728.9725ms 200 application/json; charset=utf-8
+09/20/2020 06:43:37 -07:00 Request starting HTTP/1.1 GET https://localhost:44305/api/Home/GetDoors?StartDate=sdsdsfd  
+09/20/2020 06:43:37 -07:00 Executing endpoint '"DoorsApi.Controllers.Home.GetDoors (DoorsApi)"'
+09/20/2020 06:43:37 -07:00 Route matched with "{action = \"GetDoors\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[DoorsApi.Models.Door]]] GetDoors()" on controller "DoorsApi.Controllers.Home" ("DoorsApi").
+09/20/2020 06:43:43 -07:00 Executing ObjectResult, writing value of type '"Microsoft.AspNetCore.Mvc.ProblemDetails"'.
+09/20/2020 06:43:43 -07:00 Executed action "DoorsApi.Controllers.Home.GetDoors (DoorsApi)" in 6074.1955ms
+09/20/2020 06:43:43 -07:00 Executed endpoint '"DoorsApi.Controllers.Home.GetDoors (DoorsApi)"'
+09/20/2020 06:43:43 -07:00 Request finished in 6146.9891ms 401 application/problem+json; charset=utf-8
+09/20/2020 06:45:57 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:45:57 -07:00 Hosting environment: "Development"
+09/20/2020 06:45:57 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 06:45:57 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 06:45:58 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:45:58 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 06:45:58 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 06:45:58 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 139.4376ms
+09/20/2020 06:45:58 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 06:45:58 -07:00 Request finished in 473.9685ms 200 application/json; charset=utf-8
+09/20/2020 07:41:32 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 07:41:32 -07:00 Hosting environment: "Development"
+09/20/2020 07:41:32 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 07:41:32 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 07:41:33 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 07:41:33 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 07:41:33 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 07:41:33 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 150.0532ms
+09/20/2020 07:41:33 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 07:41:33 -07:00 Request finished in 724.8661ms 200 application/json; charset=utf-8
+09/20/2020 07:47:28 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 07:47:28 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 07:47:28 -07:00 Hosting environment: "Development"
+09/20/2020 07:47:28 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 07:47:28 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 07:47:29 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 07:47:29 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 07:47:30 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 738.8197ms
+09/20/2020 07:47:30 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 07:47:30 -07:00 Request finished in 1682.8175ms 200 application/json; charset=utf-8
+09/20/2020 08:44:00 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:44:02 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 08:44:02 -07:00 Hosting environment: "Development"
+09/20/2020 08:44:02 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 08:44:03 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:44:03 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 08:44:03 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 08:44:03 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 188.1508ms
+09/20/2020 08:44:03 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:44:03 -07:00 Request finished in 700.1697ms 200 application/json; charset=utf-8
+09/20/2020 08:48:32 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:48:32 -07:00 Hosting environment: "Development"
+09/20/2020 08:48:32 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 08:48:32 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 08:48:32 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:48:33 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 08:48:33 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 08:48:33 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 167.5973ms
+09/20/2020 08:48:33 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:48:33 -07:00 Request finished in 751.3294ms 200 application/json; charset=utf-8
+09/20/2020 08:51:15 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:51:18 -07:00 Hosting environment: "Development"
+09/20/2020 08:51:18 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\DoorsApi"
+09/20/2020 08:51:19 -07:00 Request starting HTTP/2.0 GET https://localhost:44305/weatherforecast  
+09/20/2020 08:51:20 -07:00 Executing endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:51:22 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[DoorsApi.WeatherForecast] Get()" on controller "DoorsApi.Controllers.WeatherForecastController" ("DoorsApi").
+09/20/2020 08:51:22 -07:00 Executing ObjectResult, writing value of type '"DoorsApi.WeatherForecast[]"'.
+09/20/2020 08:51:23 -07:00 Executed action "DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)" in 1958.2851ms
+09/20/2020 08:51:24 -07:00 Executed endpoint '"DoorsApi.Controllers.WeatherForecastController.Get (DoorsApi)"'
+09/20/2020 08:51:24 -07:00 Request finished in 4339.4596ms 200 application/json; charset=utf-8

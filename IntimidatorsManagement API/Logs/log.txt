@@ -1,0 +1,215 @@
+09/20/2020 06:25:38 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 06:25:43 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:25:43 -07:00 Hosting environment: "Development"
+09/20/2020 06:25:43 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 06:25:44 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 06:25:44 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:25:44 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 06:25:44 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 06:25:44 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 349.6926ms
+09/20/2020 06:25:44 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:25:44 -07:00 Request finished in 913.382ms 200 application/json; charset=utf-8
+09/20/2020 06:25:55 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:25:56 -07:00 Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+09/20/2020 06:25:56 -07:00 "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+09/20/2020 06:25:56 -07:00 Authorization failed.
+09/20/2020 06:25:56 -07:00 AuthenticationScheme: "Bearer" was challenged.
+09/20/2020 06:25:56 -07:00 Request finished in 1080.2115ms 401 
+09/20/2020 06:36:23 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 06:36:25 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:36:25 -07:00 Hosting environment: "Development"
+09/20/2020 06:36:25 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 06:36:27 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 06:36:29 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:36:29 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 06:36:29 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 06:36:30 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 1122.3369ms
+09/20/2020 06:36:30 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:36:30 -07:00 Request finished in 2769.6722ms 200 application/json; charset=utf-8
+09/20/2020 06:36:34 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:36:35 -07:00 Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+09/20/2020 06:36:35 -07:00 "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+09/20/2020 06:36:35 -07:00 Authorization failed.
+09/20/2020 06:36:35 -07:00 AuthenticationScheme: "Bearer" was challenged.
+09/20/2020 06:36:35 -07:00 Request finished in 1533.429ms 401 
+09/20/2020 06:37:51 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 06:37:52 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:37:52 -07:00 Hosting environment: "Development"
+09/20/2020 06:37:52 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 06:37:52 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 06:37:52 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:37:53 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 06:37:53 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 06:37:53 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 80.1264ms
+09/20/2020 06:37:53 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:37:53 -07:00 Request finished in 310.9329ms 200 application/json; charset=utf-8
+09/20/2020 06:38:04 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:38:05 -07:00 Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+09/20/2020 06:38:05 -07:00 "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+09/20/2020 06:38:05 -07:00 Authorization failed.
+09/20/2020 06:38:05 -07:00 AuthenticationScheme: "Bearer" was challenged.
+09/20/2020 06:38:05 -07:00 Request finished in 1188.2042ms 401 
+09/20/2020 06:38:33 -07:00 Request starting HTTP/1.1 POST https://localhost:44337/api/Home/register application/json 184
+09/20/2020 06:38:33 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.Home.Register (IntimidatorsManagement API)"'
+09/20/2020 06:38:33 -07:00 Route matched with "{action = \"Register\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(IntimidatorsManagement_API.Models.Intimidator)" on controller "IntimidatorsManagement_API.Controllers.Home" ("IntimidatorsManagement API").
+09/20/2020 06:38:50 -07:00 User "12" validation failed: "InvalidUserName".
+09/20/2020 06:38:51 -07:00 Entity Framework Core "3.1.8" initialized '"ApplicationDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+09/20/2020 06:38:52 -07:00 Executed DbCommand ("44"ms) [Parameters=["@__user_Id_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a].[Id], [a].[ClaimType], [a].[ClaimValue], [a].[UserId]
+FROM [AspNetUserClaims] AS [a]
+WHERE [a].[UserId] = @__user_Id_0"
+09/20/2020 06:38:53 -07:00 Executed DbCommand ("5"ms) [Parameters=["@__userId_0='?' (Size = 450)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0"
+09/20/2020 06:38:53 -07:00 AuthenticationScheme: "Identity.Application" signed in.
+09/20/2020 06:38:55 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.Models.User"'.
+09/20/2020 06:38:55 -07:00 Executed action "IntimidatorsManagement_API.Controllers.Home.Register (IntimidatorsManagement API)" in 21684.6172ms
+09/20/2020 06:38:55 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.Home.Register (IntimidatorsManagement API)"'
+09/20/2020 06:38:55 -07:00 Request finished in 21776.1546ms 200 application/json; charset=utf-8
+09/20/2020 06:39:30 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:39:30 -07:00 Successfully validated the token.
+09/20/2020 06:39:30 -07:00 Authorization was successful.
+09/20/2020 06:39:30 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 06:39:30 -07:00 Route matched with "{action = \"Authenticate\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate()" on controller "IntimidatorsManagement_API.Controllers.Home" ("IntimidatorsManagement API").
+09/20/2020 06:39:32 -07:00 Executing ObjectResult, writing value of type '"System.String"'.
+09/20/2020 06:39:32 -07:00 Executed action "IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)" in 2691.7879ms
+09/20/2020 06:39:32 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 06:39:32 -07:00 Request finished in 2761.4884ms 200 text/plain; charset=utf-8
+09/20/2020 06:40:40 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 06:40:41 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:40:41 -07:00 Hosting environment: "Development"
+09/20/2020 06:40:41 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 06:40:42 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 06:40:42 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:40:42 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 06:40:42 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 06:40:42 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 134.8601ms
+09/20/2020 06:40:42 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:40:42 -07:00 Request finished in 503.1259ms 200 application/json; charset=utf-8
+09/20/2020 06:40:52 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:40:53 -07:00 Successfully validated the token.
+09/20/2020 06:40:53 -07:00 Authorization was successful.
+09/20/2020 06:40:53 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 06:40:53 -07:00 Route matched with "{action = \"Authenticate\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate()" on controller "IntimidatorsManagement_API.Controllers.Home" ("IntimidatorsManagement API").
+09/20/2020 06:40:57 -07:00 Executing ObjectResult, writing value of type '"System.String"'.
+09/20/2020 06:40:57 -07:00 Executed action "IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)" in 3458.2271ms
+09/20/2020 06:40:57 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 06:40:57 -07:00 Request finished in 4640.0157ms 200 text/plain; charset=utf-8
+09/20/2020 06:43:40 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 06:43:40 -07:00 Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+09/20/2020 06:43:40 -07:00 "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: 'System.DateTime', Current time: 'System.DateTime'."
+09/20/2020 06:43:40 -07:00 Authorization failed.
+09/20/2020 06:43:40 -07:00 AuthenticationScheme: "Bearer" was challenged.
+09/20/2020 06:43:40 -07:00 Request finished in 233.8796ms 401 
+09/20/2020 06:46:00 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 06:46:01 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 06:46:01 -07:00 Hosting environment: "Development"
+09/20/2020 06:46:01 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 06:46:01 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 06:46:01 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:46:01 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 06:46:01 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 06:46:01 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 87.9828ms
+09/20/2020 06:46:01 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 06:46:01 -07:00 Request finished in 354.4057ms 200 application/json; charset=utf-8
+09/20/2020 07:41:31 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 07:41:34 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 07:41:34 -07:00 Hosting environment: "Development"
+09/20/2020 07:41:34 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 07:41:34 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 07:41:34 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:41:34 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 07:41:34 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 07:41:34 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 113.4036ms
+09/20/2020 07:41:34 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:41:34 -07:00 Request finished in 495.6127ms 200 application/json; charset=utf-8
+09/20/2020 07:47:28 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 07:47:33 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 07:47:33 -07:00 Hosting environment: "Development"
+09/20/2020 07:47:33 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 07:47:36 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 07:47:36 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:47:36 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 07:47:36 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 07:47:36 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 81.2416ms
+09/20/2020 07:47:36 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:47:36 -07:00 Request finished in 519.8425ms 200 application/json; charset=utf-8
+09/20/2020 07:49:50 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 07:49:52 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 07:49:52 -07:00 Hosting environment: "Development"
+09/20/2020 07:49:52 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 07:49:52 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 07:49:52 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:49:53 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 07:49:53 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 07:49:53 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 316.1475ms
+09/20/2020 07:49:53 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 07:49:53 -07:00 Request finished in 778.2549ms 200 application/json; charset=utf-8
+09/20/2020 08:44:04 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 08:44:05 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:44:05 -07:00 Hosting environment: "Development"
+09/20/2020 08:44:05 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 08:44:05 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 08:44:06 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:44:06 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 08:44:06 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 08:44:06 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 213.6244ms
+09/20/2020 08:44:06 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:44:06 -07:00 Request finished in 704.9473ms 200 application/json; charset=utf-8
+09/20/2020 08:48:32 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 08:48:34 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:48:34 -07:00 Hosting environment: "Development"
+09/20/2020 08:48:34 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 08:48:34 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 08:48:34 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:48:34 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 08:48:34 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 08:48:35 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 107.1964ms
+09/20/2020 08:48:35 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:48:35 -07:00 Request finished in 481.3983ms 200 application/json; charset=utf-8
+09/20/2020 08:51:20 -07:00 User profile is available. Using '"C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+09/20/2020 08:51:28 -07:00 Application started. Press Ctrl+C to shut down.
+09/20/2020 08:51:28 -07:00 Hosting environment: "Development"
+09/20/2020 08:51:28 -07:00 Content root path: "C:\Users\User\source\repos\MatrixTask\IntimidatorsManagement API"
+09/20/2020 08:51:28 -07:00 Request starting HTTP/2.0 GET https://localhost:44337/weatherforecast  
+09/20/2020 08:51:29 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:51:29 -07:00 Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[IntimidatorsManagement_API.WeatherForecast] Get()" on controller "IntimidatorsManagement_API.Controllers.WeatherForecastController" ("IntimidatorsManagement API").
+09/20/2020 08:51:29 -07:00 Executing ObjectResult, writing value of type '"IntimidatorsManagement_API.WeatherForecast[]"'.
+09/20/2020 08:51:29 -07:00 Executed action "IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)" in 272.2576ms
+09/20/2020 08:51:29 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.WeatherForecastController.Get (IntimidatorsManagement API)"'
+09/20/2020 08:51:29 -07:00 Request finished in 661.8223ms 200 application/json; charset=utf-8
+09/20/2020 08:57:07 -07:00 Request starting HTTP/1.1 GET https://localhost:44337/api/Home/Authenticate  
+09/20/2020 08:57:08 -07:00 Successfully validated the token.
+09/20/2020 08:57:08 -07:00 Authorization was successful.
+09/20/2020 08:57:08 -07:00 Executing endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 08:57:08 -07:00 Route matched with "{action = \"Authenticate\", controller = \"Home\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Authenticate()" on controller "IntimidatorsManagement_API.Controllers.Home" ("IntimidatorsManagement API").
+09/20/2020 08:57:16 -07:00 Executing ObjectResult, writing value of type '"System.String"'.
+09/20/2020 08:57:16 -07:00 Executed action "IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)" in 7934.2007ms
+09/20/2020 08:57:16 -07:00 Executed endpoint '"IntimidatorsManagement_API.Controllers.Home.Authenticate (IntimidatorsManagement API)"'
+09/20/2020 08:57:16 -07:00 Request finished in 8868.77ms 200 text/plain; charset=utf-8
